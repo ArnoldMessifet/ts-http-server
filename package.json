@@ -1,0 +1,28 @@
+{
+  "name": "ts-http-server",
+  "version": "1.0.0",
+  "description": "an Express HTTP server developed with typescript",
+  "keywords": "typescript node express server",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/ts-node ./server/server.ts",
+    "tslint": "./node_modules/.bin/tslint -c tslint.json 'server/**/*.ts'"
+  },
+  "author": "Arnold MESSIFET",
+  "license": "MIT",
+  "engines": {
+    "node": "8.9.x"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.39",
+    "@types/lodash": "^4.14.85",
+    "@types/node": "^8.0.53",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "lodash": "^4.17.4"
+  }
+}
